@@ -1,3 +1,10 @@
+use std::io::{self, Write};
+
+mod engine;
+mod game;
+
 fn main() {
-    println!("Hello, world!");
+    let mut game = game::Game::new();
+
+    engine::run(&mut game);
 }

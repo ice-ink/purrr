@@ -1,0 +1,18 @@
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn turn_advances() {
+        let mut g = Game::new();
+        g.handle("hello");
+        assert_eq!(g.turn, 1);
+    }
+
+    #[test]
+    fn win_ends_game() {
+        let mut g = Game::new();
+        g.handle("win");
+        assert!(g.is_over());
+    }
+}
