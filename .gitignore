@@ -1,0 +1,39 @@
+# Rust build output
+/target/
+**/*.rs.bk
+
+# Cargo lock file — see note below
+# Cargo.lock
+
+# Backtrace / crash artifacts
+*.pdb
+
+# MSVC / Windows build leftovers
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment / secrets
+.env
+.env.local
+
+# Rustfmt/backup
+*.orig
+*.rej
