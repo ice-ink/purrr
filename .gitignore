@@ -37,3 +37,6 @@ Desktop.ini
 # Rustfmt/backup
 *.orig
 *.rej
+
+# Docs
+**/agent-instructions.md
