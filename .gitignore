@@ -1,5 +1,5 @@
-# Rust build output
-/target/
+# Rust build output (matches any `target/` directory, e.g. per-version builds)
+target/
 **/*.rs.bk
 
 # Cargo lock file — see note below
@@ -41,3 +41,7 @@ Desktop.ini
 # Docs
 **/agent-instructions.md
 agent-instructions.md
+
+# Save files (produced at runtime)
+save.purrr
+saves/
