@@ -1,1 +1,5 @@
 # purrr
+
+## agenda
+
+## notes
